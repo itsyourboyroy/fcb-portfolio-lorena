@@ -1,0 +1,53 @@
+/* Ctrl+K+C */
+*{
+    
+    font-family: "Roboto", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2{
+    font-family: "Montserrat", sans-serif;
+}
+img{
+    height: 450px;
+    width: 200px;
+}
+#landing{
+    
+    height: 80vh;
+    
+    /* center the contents of landing horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#gallery{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+   
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+h2{
+    color: #007bff;
+}
+.tools {
+    height: 200px;
+    width: 75%;
+    margin: 20px;
+    border: 5px double #f2f2f2;
+    padding: 25px;
+    border-radius: 50px;
+    
+}
+
